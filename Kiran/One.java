@@ -7,6 +7,7 @@ class One {
         a1.add("Bhanutej");
         a1.add("Tendul kuamr");
         a1.add("Girish");
+        a1.remove(2);
         Collections.sort(a1);
         Collections.sort(a1, Collections.reverseOrder());
         System.out.println(a1.size());
